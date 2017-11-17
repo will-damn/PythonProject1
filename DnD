@@ -1,0 +1,83 @@
+# Race affects languages, main stats, skill proficiencies, weapon proficiencies
+Dragonborn  = {
+  }
+Hill Dwarf = {
+  }
+Mountain Dwarf = {
+  }
+Drow = {
+  }
+High Elf = {
+  }
+Wood Elf = {
+  }
+Forest Gnome = {
+  }
+Rock Gnome = {
+  }
+Lightfoot Halfling = {
+  }
+Stout Halfling = {
+  }
+Half-Elf = {
+  }
+Half-Orc = {
+  }
+Human = {
+  }
+Tiefling = {
+  }
+
+# Class affects armor proficiencies, hit dice, starting equipment, starting tools, starting weapons
+Barbarian = {
+  }
+Bard = {
+  }
+Cleric = {
+  }
+Druid = {
+  }
+Fighter = {
+  }
+Monk = {
+  }
+Paladin = {
+  }
+Ranger = {
+  }
+Rogue = {
+  }
+Sorcerer = {
+  }
+Warlock = {
+  }
+Wizard = {
+  }
+
+# Background affects languages, skill proficiencies, starting money, tools
+Acoltye = {
+  }
+Charlatan = {
+  }
+Criminal = {
+  }
+Entertainer = {
+  }
+Folk Hero = {
+  }
+Guild Artisan = {
+  }
+Hermit = {
+  }
+Noble = {
+  }
+Outlander = {
+  }
+Sage = {
+  }
+Sailor = {
+  }
+Soldier = {
+  }
+Urchin = {
+  }
