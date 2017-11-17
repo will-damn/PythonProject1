@@ -1,86 +1,100 @@
-# Race affects languages, main stats, skill proficiencies, weapon proficiencies
+# Race affects languages, main stats, skill proficiencies, speed, weapon proficiencies
 Dragonborn = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
+  "Languages" : "Common, Draconic"
+  "Main Stats" : ["Strength +2", "Charisma +1"]
+  "Skill Proficiencies" : 
+  "Speed" : "30"
   "Weapon Proficiencies" : 
   }
 Hill Dwarf = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Dwarvish"
+  "Main Stats" : ["Constitution +2", "Wisdom +1"]
+  "Skill Proficiencies" : 
+  "Speed" : "25"
+  "Weapon Proficiencies" : "Battleaxe, Handaxe, Throwing Hammer, Warhammer"
   }
 Mountain Dwarf = {
-  "Languages" : 
-  "Main Stats" :
+  "Languages" : "Common, Dwarvish"
+  "Main Stats" : ["Constitution +2", "Strength +2"]
   "Skill Proficiencies" :
-  "Weapon Proficiencies" : 
+  "Speed" : "25"
+  "Weapon Proficiencies" : "Battleaxe, Handaxe, Throwing Hammer, Warhammer"
   }
 Drow = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Elvish"
+  "Main Stats" : ["Dexterity +2", "Charisma +1"}]
+  "Skill Proficiencies" : "Perception"
+  "Speed" : "30"
+  "Weapon Proficiencies" : "Rapiers, Shortswords, Hand Crossbows"
   }
 High Elf = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Elvish"
+  "Main Stats" : ["Dexterity +2", "Intelligence +1"]
+  "Skill Proficiencies" : "Perception"
+  "Speed" : "30"
+  "Weapon Proficiencies" : "Longsword, Shortsword, Longbow, Shortbow"
   }
 Wood Elf = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Elvish"
+  "Main Stats" : ["Dexterity +2", "Wisdom +1"]
+  "Skill Proficiencies" : "Perception"
+  "Speed" : "35"
+  "Weapon Proficiencies" : "Longsword, Shortsword, Longbow, Shortbow"
   }
 Forest Gnome = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Rock Gnome = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Lightfoot Halfling = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Stout Halfling = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Half-Elf = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Half-Orc = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Human = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
 Tiefling = {
   "Languages" : 
   "Main Stats" :
   "Skill Proficiencies" :
+  "Speed" : 
   "Weapon Proficiencies" : 
   }
   
@@ -97,67 +111,67 @@ Bard = {
   "Armor Proficiencies" : "Light Armor"
   "Hit Dice" : "D8"
   "Tool Proficiencies" : "3 Musical Instruments of Your Choice"
-  "Weapon Proficiencies" : "Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords"
+  "Weapon Proficiencies" : "Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords"]
   }
 Cleric = {
-  "Armor Proficiencies" : "Light Armor, Medium Armor, Shields"
+  "Armor Proficiencies" : "Light Armor" "Medium Armor" "Shields"
   "Hit Dice" : "D8"
   "Tool Proficiencies" : ""
   "Weapon Proficiencies" : "Simple Weapons"
   }
 Druid = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "Light Armor, Medium Armor, Shields (Nothing Metal)"
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : "Herbalism Kit"
+  "Weapon Proficiencies" : "Clubs, Daggers, Darts, Javelins, Maces, Quarterstaffs, Scimitars, Sickles, Slings, Spears"
   }
 Fighter = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "All Armor, Shields"
+  "Hit Dice" : "D10"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons, Martial Weapons"
   }
 Monk = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" :  ""
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : "One Type Of Artisan's Tools or One Musical Instrument"
+  "Weapon Proficiencies" : "Simple Weapons, Shortswords"
   }
 Paladin = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "All Armor, Shields"
+  "Hit Dice" : "D10"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons, Martial Weapons"
   }
 Ranger = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "Light Armor, Medium Armor, Shields"
+  "Hit Dice" : "D10"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons, Martial Weapons"
   }
 Rogue = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "Light Armor"
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : "Thieve's Tools"
+  "Weapon Proficiencies" : ""Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords"
   }
 Sorcerer = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : ""
+  "Hit Dice" : "D6"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Daggers, Darts, Slings, Quarterstaffs, Light Crossbows"
   }
 Warlock = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : "Light Armor"
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons"
   }
 Wizard = {
-  "Armor Proficiencies" : 
-  "Hit Dice" : 
-  "Tool Proficiencies" : 
-  "Weapon Proficiencies" : 
+  "Armor Proficiencies" : ""
+  "Hit Dice" : "D6"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Daggers, Darts, Slings, Quarterstaffs, Light Crossbows"
   }
 
 
