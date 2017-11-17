@@ -1,101 +1,105 @@
+#DICTIONARIES: This section contains the Dictionaries which will be referenced throughout the code
+
+
 # Race affects languages, main stats, skill proficiencies, speed, weapon proficiencies
+
 Dragonborn = {
   "Languages" : "Common, Draconic"
-  "Main Stats" : ["Strength +2", "Charisma +1"]
+  "Main Stats" : ["STR +2", "CHA +1"]
   "Skill Proficiencies" : 
   "Speed" : "30"
   "Weapon Proficiencies" : 
   }
 Hill Dwarf = {
   "Languages" : "Common, Dwarvish"
-  "Main Stats" : ["Constitution +2", "Wisdom +1"]
+  "Main Stats" : ["CON +2", "WIS +1"]
   "Skill Proficiencies" : 
   "Speed" : "25"
   "Weapon Proficiencies" : "Battleaxe, Handaxe, Throwing Hammer, Warhammer"
   }
 Mountain Dwarf = {
   "Languages" : "Common, Dwarvish"
-  "Main Stats" : ["Constitution +2", "Strength +2"]
+  "Main Stats" : ["CON +2", "STR +2"]
   "Skill Proficiencies" :
   "Speed" : "25"
   "Weapon Proficiencies" : "Battleaxe, Handaxe, Throwing Hammer, Warhammer"
   }
 Drow = {
   "Languages" : "Common, Elvish"
-  "Main Stats" : ["Dexterity +2", "Charisma +1"}]
+  "Main Stats" : ["DEX +2", "CHA +1"]
   "Skill Proficiencies" : "Perception"
   "Speed" : "30"
   "Weapon Proficiencies" : "Rapiers, Shortswords, Hand Crossbows"
   }
 High Elf = {
   "Languages" : "Common, Elvish"
-  "Main Stats" : ["Dexterity +2", "Intelligence +1"]
+  "Main Stats" : ["DEX +2", "INT +1"]
   "Skill Proficiencies" : "Perception"
   "Speed" : "30"
   "Weapon Proficiencies" : "Longsword, Shortsword, Longbow, Shortbow"
   }
 Wood Elf = {
   "Languages" : "Common, Elvish"
-  "Main Stats" : ["Dexterity +2", "Wisdom +1"]
+  "Main Stats" : ["DEX +2", "WIS +1"]
   "Skill Proficiencies" : "Perception"
   "Speed" : "35"
   "Weapon Proficiencies" : "Longsword, Shortsword, Longbow, Shortbow"
   }
 Forest Gnome = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Gnomish"
+  "Main Stats" : ["INT +2", "DEX +1"]
+  "Skill Proficiencies" : ""
+  "Speed" : "25"
+  "Weapon Proficiencies" : ""
   }
 Rock Gnome = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Gnomish"
+  "Main Stats" : ["INT +2", "CON +1"]
+  "Skill Proficiencies" : ""
+  "Speed" : "25"
+  "Weapon Proficiencies" : ""
   }
 Lightfoot Halfling = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Halfling"
+  "Main Stats" : ["DEX +2", "CHA +1"]
+  "Skill Proficiencies" : ""
+  "Speed" : "25"
+  "Weapon Proficiencies" : ""
   }
 Stout Halfling = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Halfling"
+  "Main Stats" : ["DEX +2", "CON +1"]
+  "Skill Proficiencies" : ""
+  "Speed" : "25"
+  "Weapon Proficiencies" : ""
   }
 Half-Elf = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Elvish, +1"
+  "Main Stats" : ["CHA +2", "2 Others +1"]
+  "Skill Proficiencies" : "2 Of Your Choice"
+  "Speed" : "30"
+  "Weapon Proficiencies" : ""
   }
 Half-Orc = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Orc"
+  "Main Stats" : ["STR +2", "CON +1"]
+  "Skill Proficiencies" : "Intimidation"
+  "Speed" : "30"
+  "Weapon Proficiencies" : ""
   }
 Human = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, +1"
+  "Main Stats" : ["STR +1", "DEX +1", "CON +1", "INT +1", "WIS +1", "CHA +1"]
+  "Skill Proficiencies" : ""
+  "Speed" : "30"
+  "Weapon Proficiencies" : ""
   }
 Tiefling = {
-  "Languages" : 
-  "Main Stats" :
-  "Skill Proficiencies" :
-  "Speed" : 
-  "Weapon Proficiencies" : 
+  "Languages" : "Common, Infernal"
+  "Main Stats" : ["INT +1", "CHA +2"]
+  "Skill Proficiencies" : ""
+  "Speed" : "30"
+  "Weapon Proficiencies" : ""
   }
   
 
@@ -110,7 +114,7 @@ Barbarian = {
 Bard = {
   "Armor Proficiencies" : "Light Armor"
   "Hit Dice" : "D8"
-  "Tool Proficiencies" : "3 Musical Instruments of Your Choice"
+  "Tool Proficiencies" : "3 Types of Musical Instrument"
   "Weapon Proficiencies" : "Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords"]
   }
 Cleric = {
@@ -134,7 +138,7 @@ Fighter = {
 Monk = {
   "Armor Proficiencies" :  ""
   "Hit Dice" : "D8"
-  "Tool Proficiencies" : "One Type Of Artisan's Tools or One Musical Instrument"
+  "Tool Proficiencies" : "One Type Of Artisan's Tools or 1 Type of Musical Instrument"
   "Weapon Proficiencies" : "Simple Weapons, Shortswords"
   }
 Paladin = {
@@ -175,70 +179,96 @@ Wizard = {
   }
 
 
-# Background affects languages, skill proficiencies, starting money, tools
+# Background affects languages, skill proficiencies, starting money, tool proficiencies, equipment
 
 Acoltye = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" 
+  "Languages" : "2 Of Your Choice"
+  "Skill Proficiencies" : {"Insight", "Religion"]
+  "Starting Money" : "15 GP"
+  "Tool Proficiencies" : 
+  "Equipment" : "A Holy Symbol (a gift to you when you entered the priesthood), A Prayer Book or Prayer Wheel, 5 Sticks of Incense, Vestments, A Set of Common Clothes"
   }
 Charlatan = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+  "Languages" : ""
+  "Skill Proficiencies" : ["Deception", "Sleight of Hand"]
+  "Starting Money" : "15 GP"
+  "Tool Proficiencies" : "Disguise Kit, Forgery Kit"
+  "Equipment" : "A Set of Fine Clothes, A Disguise Kit, Tools of the Con of Your Choice (Ten Stoppered Bottles Filled with Colored Liquid, A Set of Weighted Dice, A Deck of Marked Cards, or A Signet Ring of an Imaginary Duke)"
   }
 Criminal = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Deception", "Stealth"]
+  "Starting Money" : "15 GP"
+  "Tool Proficiencies" : "1 Type of Gaming Set, Thieve's Tools"
+  "Equipment" : "A Crowbar, A Set of Dark Common Clothes Including a Hood"
   }
 Entertainer = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Acrobatics", "Performance"]
+  "Starting Money" : "15 GP"
+  "Tool Proficiencies" : "Disguise Kit, 1 Type of Musical Instrument"
+  "Equipment" : "A Musical Instrument (one of your choice), The Favor of an Admirer (love letter, lock o f hair, or trinket), A Costume"
   }
 Folk Hero = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Animal Handling", "Survival"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : "1 Type of Artisan's Tools, Vehicles (Land)"
+  "Equipment" : "A Set of Artisan’s Tools (one of your choice), A Shovel, An Iron Pot, A Set of Common Clothes"
   }
 Guild Artisan = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : "1 of Your Choice"
+  "Skill Proficiencies" : ["Insight", "Persuasion"]
+  "Starting Money" : "15 GP"
+  "Tool Proficiencies" : "1 Type of Artisan's Tools"
+  "Equipment" : "A Set of Artisan’s Tools (one of your choice), A Letter of Introduction from Your Guild, A Set of Traveler’s Clothes"
   }
 Hermit = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : "1 of Your Choice"
+  "Skill Proficiencies" : ["Medicine", "Religion"]
+  "Starting Money" : "5 GP"
+  "Tool Proficiencies" : "Herbalism Kit"
+  "Equipment" : "A Scroll Case Stuffed Full of Notes from Your Studies or Prayers, A Winter Blanket, A Set of Common Clothes, An Herbalism Kit"
   }
 Noble = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : "1 of Your Choice" 
+  "Skill Proficiencies" : ["History","Persuasion"]
+  "Starting Money" : "25 GP"
+  "Tool Proficiencies" : "1 Type of Gaming Set"
+  "Equipment" : "A Set of Fine Clothes, A Signet Ring, A Scroll of Pedigree"
   }
 Outlander = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : "1 of Your Choice"
+  "Skill Proficiencies" : ["Athletics", "Survival"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : "1 Type of Musical Instrument"
+  "Equipment" : "A Staff, A Hunting Trap, A Trophy From an Animal You Killed, A Set of Traveler’s Clothes"
   }
 Sage = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : "2 of Your Choice"
+  "Skill Proficiencies" : ["Arcana", "History"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : ""
+  "Equipment" : "A Bottle of Black Ink, A Quill, A Small Knife, A Letter from a Dead Colleague Posing a Question You Have Not Yet Been Able to Answer, A Set of Common Clothes"
   }
 Sailor = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Athletics", "Perception"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : "Navigator's Tools, Vehicles (Water)"
+  "Equipment" : "Belaying Pin (club), 50 Feet of Silk Rope, A Lucky Charm Such as a Rabbit Foot or a Small Stone with a Hole in the Center (or you may roll for a random trinket on the Trinkets table in chapter 5), A Set of Common Clothes"
   }
 Soldier = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Athletics", "Intimidation"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : "1 Type of Gaming Set, Vehicles (Land)"
+  "Equipment" : "An Insignia of Rank, A Trophy Taken from a Fallen Enemy (a dagger, broken blade, or piece o f a banner), A Set of Bone Dice or Deck of Cards, A set of Common Clothes"
   }
 Urchin = {
-  "Skills" : 
-  "Starting Money" : 
-  "Tools" :
+   "Languages" : ""
+  "Skill Proficiencies" : ["Sleight of Hand", "Stealth"]
+  "Starting Money" : "10 GP"
+  "Tool Proficiencies" : "Disguise Kit, Thieve's Tools"
+  "Equipment" : "A Small Knife, A Map of the City Where You Grew Up, A Pet Mouse, A Token to Remember Your Parents by, A Set of Common Clothes"
   }
