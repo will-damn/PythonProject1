@@ -1,83 +1,230 @@
 # Race affects languages, main stats, skill proficiencies, weapon proficiencies
 Dragonborn = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Hill Dwarf = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Mountain Dwarf = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Drow = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 High Elf = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Wood Elf = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Forest Gnome = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Rock Gnome = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Lightfoot Halfling = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Stout Halfling = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Half-Elf = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Half-Orc = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Human = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
 Tiefling = {
+  "Languages" : 
+  "Main Stats" :
+  "Skill Proficiencies" :
+  "Weapon Proficiencies" : 
   }
+  
 
-# Class affects armor proficiencies, hit dice, starting equipment, starting tools, starting weapons
+# Class affects armor proficiencies, hit dice, starting armor, tool proficiencies, weapon proficiencies
+
 Barbarian = {
+  "Armor Proficiencies" : "Light Armor, Medium Armor, Shields"
+  "Hit Dice" : "D12"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons, Martial Weapons"
   }
 Bard = {
+  "Armor Proficiencies" : "Light Armor"
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : "3 Musical Instruments of Your Choice"
+  "Weapon Proficiencies" : "Simple Weapons, Hand Crossbows, Longswords, Rapiers, Shortswords"
   }
 Cleric = {
+  "Armor Proficiencies" : "Light Armor, Medium Armor, Shields"
+  "Hit Dice" : "D8"
+  "Tool Proficiencies" : ""
+  "Weapon Proficiencies" : "Simple Weapons"
   }
 Druid = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Fighter = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Monk = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Paladin = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Ranger = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Rogue = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Sorcerer = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Warlock = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 Wizard = {
+  "Armor Proficiencies" : 
+  "Hit Dice" : 
+  "Tool Proficiencies" : 
+  "Weapon Proficiencies" : 
   }
 
+
 # Background affects languages, skill proficiencies, starting money, tools
+
 Acoltye = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" 
   }
 Charlatan = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Criminal = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Entertainer = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Folk Hero = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Guild Artisan = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Hermit = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Noble = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Outlander = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Sage = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Sailor = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Soldier = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
 Urchin = {
+  "Skills" : 
+  "Starting Money" : 
+  "Tools" :
   }
