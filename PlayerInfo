@@ -1,0 +1,6 @@
+# This is the PLAYER INFO Section, which contains the Character Name, Class, Race, Player Name, Alignment, XP, and Level
+
+
+Character_Name = raw_input("Character Name: ")
+Player_Name = raw_input("Player Name: ")
+Class = 
