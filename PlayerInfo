@@ -25,7 +25,7 @@ Race = [
 ]
 Race = inquirer.prompt(Race)
 
-#Background
+# Background
 Background = [
   inquirer.List('background',
       message = "Choose Your Background
@@ -34,7 +34,7 @@ Background = [
 ]
 Background = inquirer.prompt(Background)
 
-#Alignment
+# Alignment
 Alginment = [
   inquirer.List('alignment',
       message = "Choose Your Alignment",
@@ -43,6 +43,7 @@ Alginment = [
 ]
 Alignment = inquirer.prompt(Alignment)
 
+# XP and Level
 XP = raw_input("XP: ")
 
 Level = 1
