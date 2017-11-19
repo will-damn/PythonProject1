@@ -1,0 +1,25 @@
+# Base Stats
+# This is the Section that will track the base stats of STR, DEX, CON, INT, WIS, and CHA with Race, Class, Background, and Other bonuses
+
+
+def STR (Strength, OtherSTR):
+    Strength = raw_input("Strength: ")
+    Strength = int(Strength)
+      if Race == "Dragonborn" or Race == "Mountain Dwarf" or Race == "Half-Orc":
+        Strength == Strength + 2
+      elif Race == Human:
+        Strength == Strength + 1
+    OtherSTR = raw_input("Other Strength Modifiers: ")
+    OtherSTR = int(OtherSTR)
+  return Strength + OtherSTR
+  
+def DEX (Dexterity, OtherDEX):
+    Dexterity = raw_input("Dexterity: ")
+    Dexterity = int(Dexterity)
+      if Race == "Drow" or Race == "High Elf" or Race == "Wood Elf" or Race == "Lightfoot Halfling" or Race == "Stout Halfling":
+        Dexterity == Dexterity + 2
+      elif Race == "Forest Gnome" or Race == "Human":
+        Dexterity == Dexterity + 1
+    OtherDEX = raw_input("Other Dexterity Modifiers: ")
+    OtherDEX = int(OtherDEX)
+  return Dexterity + OtherDEX
