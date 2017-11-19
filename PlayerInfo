@@ -27,7 +27,7 @@ Race = inquirer.prompt(Race)
 
 #Background
 Background = [
-  inquirer.List('background
+  inquirer.List('background',
       message = "Choose Your Background
       choices = ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Noble", "Outlander", "Sage", "Sailor", "Soldier", "Urchin"],
     ),
