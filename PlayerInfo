@@ -43,6 +43,50 @@ Alginment = [
 ]
 Alignment = inquirer.prompt(Alignment)
 
+XP = raw_input("XP: ")
+
+Level = 1
+  if XP <300:
+    Level = Level
+  elif XP >= 300 or XP <900:
+    Level = 2
+  elif XP >= 900 or XP <2700:
+    Level = 3
+  elif XP >= 2700 or XP <6500:
+    Level = 4
+  elif XP >= 6500 or XP <14000:
+    Level = 5
+  elif XP >= 14000 or XP <23000:
+    Level = 6
+  elif XP >= 23000 or XP <34000:
+    Level = 7
+  elif XP >= 34000 or XP <48000:
+    Level = 8
+  elif XP >= 48000 or XP <64000:
+    Level = 9
+  elif XP >= 64000 or XP <85000:
+    Level = 10
+  elif XP >= 85000 or XP <100000:
+    Level = 11
+  elif XP >= 100000 or XP <120000:
+    Level = 12
+  elif XP >= 120000 or XP <140000:
+    Level = 13
+  elif XP >= 140000 or XP <165000:
+    Level = 14
+  elif XP >= 165000 or XP <195000:
+    Level = 15
+  elif XP >= 195000 or XP <225000:
+    Level = 16
+  elif XP >= 225000 or XP <265000:
+    Level = 17
+  elif XP >= 265000 or XP <305000:
+    Level = 18
+  elif XP >= 305000 or XP <355000:
+    Level = 19
+  elif XP >= 355000:
+    Level = 20
+
 # Print All
 Print "Character Name: " + Character_Name
 Print "Player Name: " + Player_Name
