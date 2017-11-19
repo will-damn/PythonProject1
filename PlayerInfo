@@ -1,6 +1,54 @@
+# Player Info
 # This is the PLAYER INFO Section, which contains the Character Name, Class, Race, Player Name, Alignment, XP, and Level
 
 
 Character_Name = raw_input("Character Name: ")
+
 Player_Name = raw_input("Player Name: ")
-Class = 
+
+# Class
+import inquirer
+Class = [
+  inquirer.List('class',
+      message = "Choose Your Class",
+      choices = ["Barbarian", "Bard", "Cleric", "Druid", "Fighter", "Monk", "Paladin", "Ranger", "Rogue", "Sorcerer", "Warlock", "Wizard"],
+    ),
+]
+Class = inquirer.prompt(Class)
+
+# Race
+Race = [
+  inquirer.List('race',
+      message = "Choose Your Race",
+      choices = ["Dragonborn", "Hill Dwarf", "Mountain Dwarf", "Drow", "High Elf", "Wood Elf", "Forest Gnome", "Rock Gnome", "Lightfoot Halfling", "Stout Halfling", "Half-Elf", "Half-Orc", "Human", "Tiefling"],
+    ),
+]
+Race = inquirer.prompt(Race)
+
+#Background
+Background = [
+  inquirer.List('background
+      message = "Choose Your Background
+      choices = ["Acolyte", "Charlatan", "Criminal", "Entertainer", "Folk Hero", "Guild Artisan", "Hermit", "Noble", "Outlander", "Sage", "Sailor", "Soldier", "Urchin"],
+    ),
+]
+Background = inquirer.prompt(Background)
+
+#Alignment
+Alginment = [
+  inquirer.List('alignment',
+      message = "Choose Your Alignment",
+      choices = ["Lawful Good", "Neutral Good", "Chaotic Good", "Lawful Neutral", "True Neutral", "Chaotic Neutral", "Lawful Evil", "Neutral Evil", "Chaotic Evil"],
+    ),
+]
+Alignment = inquirer.prompt(Alignment)
+
+# Print All
+Print "Character Name: " + Character_Name
+Print "Player Name: " + Player_Name
+Print "Class: " + Class
+Print "Race: " + Race
+Print "Alignment: " + Alignment
+Print "Background: " + Background
+Print "Level: " + Level
+Print "XP: " + XP
