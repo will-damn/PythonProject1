@@ -377,3 +377,72 @@ Print "Alignment: " + Alignment
 Print "Background: " + Background
 Print "Level: " + Level
 Print "XP: " + XP
+
+
+# Base Stats
+# This is the Section that will track the base stats of STR, DEX, CON, INT, WIS, and CHA with Race, Class, Background, and Other bonuses
+
+
+def STR (Strength, OtherSTR):
+    Strength = raw_input("Strength: ")
+    Strength = int(Strength)
+      if Race == "Dragonborn" or Race == "Mountain Dwarf" or Race == "Half-Orc":
+        Strength == Strength + 2
+      elif Race == Human:
+        Strength == Strength + 1
+    OtherSTR = raw_input("Other Strength Modifiers: ")
+    OtherSTR = int(OtherSTR)
+  return Strength + OtherSTR
+  
+def DEX (Dexterity, OtherDEX):
+    Dexterity = raw_input("Dexterity: ")
+    Dexterity = int(Dexterity)
+      if Race == "Drow" or Race == "High Elf" or Race == "Wood Elf" or Race == "Lightfoot Halfling" or Race == "Stout Halfling":
+        Dexterity == Dexterity + 2
+      elif Race == "Forest Gnome" or Race == "Human":
+        Dexterity == Dexterity + 1
+    OtherDEX = raw_input("Other Dexterity Modifiers: ")
+    OtherDEX = int(OtherDEX)
+  return Dexterity + OtherDEX
+  
+def CON (Constitution, OtherCON):
+    Constitution = raw_input("Constitution: ")
+    Constitution = int(Constitution)
+      if Race == "Hill Dwarf" or Race == "Mountain Dwarf":
+        Constitution == Constitution + 2
+      elif Race =="Rock Gnome" or Race == "Stout Halfling" or Race == "Half-Orc" or Race == "Human":
+        Constitution == Constitution + 1
+    OtherCON = raw_input("Other Constitution Modifiers: ")
+    OtherCON = int(OtherCON)
+  return Constitution + OtherCON
+  
+def INT (Intelligence, OtherINT):
+    Intelligence = raw_input("Intelligence: ")
+    Intelligence = int(Intelligence)
+      if Race == "Forest Gnome" or Race == "Rock Gnome":
+        Intelligence == Intelligence + 2
+      elif Race == "High Elf" or Race == "Wood Elf" or Race == "Human" or Race == "Tiefling":
+        Intelligence == Intelligence + 1
+    OtherINT = raw_input("Other Intelligence Modifiers: ")
+    OtherINT = int(OtherINT)
+  return Intelligence + OtherINT
+  
+def WIS (Wisdom, OtherWIS):
+    Wisdom = raw_input("Wisdom: ")
+    Wisdom = int(Wisdom)
+      if Race == "Hill Dwarf" or Race == "Wood Elf" or Race == "Human":
+        Wisdom == Wisdom + 1
+    OtherWIS = raw_input("Other Wisdom Modifiers: ")
+    OtherWIS = int(OtherWIS)
+  return Wisdom + OtherWIS
+  
+def CHA (Charisma, OtherCHA):
+    Charisma = raw_input("Charisma: ")
+    Charisma = int(Charisma)
+      if Race == "Half Elf" or Race == "Tiefling":
+        Charisma == Charisma + 2
+      elif Race == "Dragonborn" or Race == "Drow" or Race == "Lightfoot Halfling" or Race == "Human":
+        Charisma == Charisma + 1
+    OtherCHA = raw_input("Other Charisma Modifiers: ")
+    OtherCHA = Charisma + int(OtherCHA)
+  return Intelligence + OtherINT
