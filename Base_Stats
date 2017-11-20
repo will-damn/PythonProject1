@@ -1,5 +1,5 @@
 # Base Stats
-# This is the Section that will track the base stats of STR, DEX, CON, INT, WIS, and CHA with Race, Class, Background, and Other bonuses
+# This is the Section that will track the base stats of STR, DEX, CON, INT, WIS, and CHA with Race, Class, Background, and proficiency bonuses
 
 
 def STR (Strength, OtherSTR):
@@ -65,3 +65,13 @@ def CHA (Charisma, OtherCHA):
     OtherCHA = raw_input("Other Charisma Modifiers: ")
     OtherCHA = Charisma + int(OtherCHA)
   return Intelligence + OtherINT
+
+
+barbarian STR CON bard dex cha cleric wis cha druid int wis fighter str con monk str dex paladin wis cha ranger str dex rogue dex int sorcerer con cha warlock wis cha wizard int wis
+
+# Proficiency Bonuses
+STR_proficiency_bonus = False
+    if Class == "Barbarian" or Class == "Fighter" or Class == "Ranger":
+        STR_proficiency_bonus = True
+
+
