@@ -27,10 +27,10 @@ def DEX (Dexterity, OtherDEX):
 def CON (Constitution, OtherCON):
     Constitution = raw_input("Constitution: ")
     Constitution = int(Constitution)
-      if Race == 
-        Constitution ==
-      elif Race == 
-        Constitution == 
+      if Race == "Hill Dwarf" or Race == "Mountain Dwarf":
+        Constitution == Constitution + 2
+      elif Race =="Rock Gnome" or Race == "Stout Halfling" or Race == "Half-Orc" or Race == "Human":
+        Constitution == Constitution + 1
     OtherCON = raw_input("Other Constitution Modifiers: ")
     OtherCON = int(OtherCON)
   return Constitution + OtherCON
@@ -38,10 +38,10 @@ def CON (Constitution, OtherCON):
 def INT (Intelligence, OtherINT):
     Intelligence = raw_input("Intelligence: ")
     Intelligence = int(Intelligence)
-      if Race == 
-        Intelligence ==
-      elif Race == 
-        Intelligence == 
+      if Race == "Forest Gnome" or Race == "Rock Gnome":
+        Intelligence == Intelligence + 2
+      elif Race == "High Elf" or Race == "Wood Elf" or Race == "Human" or Race == "Tiefling":
+        Intelligence == Intelligence + 1
     OtherINT = raw_input("Other Intelligence Modifiers: ")
     OtherINT = int(OtherINT)
   return Intelligence + OtherINT
