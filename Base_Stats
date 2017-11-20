@@ -49,10 +49,8 @@ def INT (Intelligence, OtherINT):
 def WIS (Wisdom, OtherWIS):
     Wisdom = raw_input("Wisdom: ")
     Wisdom = int(Wisdom)
-      if Race == 
-        Wisdom ==
-      elif Race == 
-        Wisdom == 
+      if Race == "Hill Dwarf" or Race == "Wood Elf" or Race == "Human":
+        Wisdom == Wisdom + 1
     OtherWIS = raw_input("Other Wisdom Modifiers: ")
     OtherWIS = int(OtherWIS)
   return Wisdom + OtherWIS
@@ -60,10 +58,10 @@ def WIS (Wisdom, OtherWIS):
 def CHA (Charisma, OtherCHA):
     Charisma = raw_input("Charisma: ")
     Charisma = int(Charisma)
-      if Race == 
-        Charisma ==
-      elif Race == 
-        Charisma == 
+      if Race == "Half Elf" or Race == "Tiefling":
+        Charisma == Charisma + 2
+      elif Race == "Dragonborn" or Race == "Drow" or Race == "Lightfoot Halfling" or Race == "Human":
+        Charisma == Charisma + 1
     OtherCHA = raw_input("Other Charisma Modifiers: ")
     OtherCHA = Charisma + int(OtherCHA)
   return Intelligence + OtherINT
