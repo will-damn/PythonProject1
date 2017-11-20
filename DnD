@@ -446,3 +446,229 @@ def CHA (Charisma, OtherCHA):
     OtherCHA = raw_input("Other Charisma Modifiers: ")
     OtherCHA = Charisma + int(OtherCHA)
   return Intelligence + OtherINT
+
+
+# This section defines the main Save Throws
+
+
+STR_Save = 0
+  if STR = 1:
+    STR_Save = -5
+  elif STR = 2 or STR = 3:
+    STR_Save = -4
+  elif STR = 4 or STR = 5:
+    STR_Save = -3
+  elif STR = 6or STR = 7:
+    STR_Save = -2
+  elif STR = 8 or STR = 9:
+    STR_Save = -1
+  elif STR = 10 or STR = 11:
+    STR_Save = 0
+  elif STR = 12 or STR = 13:
+    STR_Save = 1
+  elif STR = 14 or STR = 15:
+    STR_Save = 2
+  elif STR = 16 or STR = 17:
+    STR_Save = 3
+  elif STR = 18 or STR = 19:
+    STR_Save = 4
+  elif STR = 20 or STR = 21:
+    STR_Save = 5
+  elif STR = 22 or STR = 23:
+    STR_Save = 6
+  elif STR = 24 or STR = 25:
+    STR_Save = 7    
+  elif STR = 26 or STR = 27:
+    STR_Save = 8
+  elif STR = 28 or STR = 29:
+    STR_Save = 9
+  elif STR = 30:
+    STR_Save = 10
+  return STR_Save
+  if STR_proficiency_bonus = True:
+    STR_Save = STR_Save + Proficiency Bonus
+    
+DEX_Save = 0
+  if DEX = 1:
+    DEX_Save = -5
+  elif DEX = 2 or DEX = 3:
+    DEX_Save = -4
+  elif DEX = 4 or DEX = 5:
+    DEX_Save = -3
+  elif DEX = 6or DEX = 7:
+    DEX_Save = -2
+  elif DEX = 8 or DEX = 9:
+    DEX_Save = -1
+  elif DEX = 10 or DEX = 11:
+    DEX_Save = 0
+  elif DEX = 12 or DEX = 13:
+    DEX_Save = 1
+  elif DEX = 14 or DEX = 15:
+    DEX_Save = 2
+  elif DEX = 16 or DEX = 17:
+    DEX_Save = 3
+  elif DEX = 18 or DEX = 19:
+    DEX_Save = 4
+  elif DEX = 20 or DEX = 21:
+    DEX_Save = 5
+  elif DEX = 22 or DEX = 23:
+    DEX_Save = 6
+  elif DEX = 24 or DEX = 25:
+    DEX_Save = 7    
+  elif DEX = 26 or DEX = 27:
+    DEX_Save = 8
+  elif DEX = 28 or DEX = 29:
+    DEX_Save = 9
+  elif DEX = 30:
+    DEX_Save = 10
+  return DEX_Save
+  if DEX_proficiency_bonus = True:
+    DEX_Save = DEX_Save + Proficiency Bonus
+
+CON_Save = 0
+  if CON = 1:
+    CON_Save = -5
+  elif CON = 2 or CON = 3:
+    CON_Save = -4
+  elif CON = 4 or CON = 5:
+    CON_Save = -3
+  elif CON = 6or CON = 7:
+    CON_Save = -2
+  elif CON = 8 or CON = 9:
+    CON_Save = -1
+  elif CON = 10 or CON = 11:
+    CON_Save = 0
+  elif CON = 12 or CON = 13:
+    CON_Save = 1
+  elif CON = 14 or CON = 15:
+    CON_Save = 2
+  elif CON = 16 or CON = 17:
+    CON_Save = 3
+  elif CON = 18 or CON = 19:
+    CON_Save = 4
+  elif CON = 20 or CON = 21:
+    CON_Save = 5
+  elif CON = 22 or CON = 23:
+    CON_Save = 6
+  elif CON = 24 or CON = 25:
+    CON_Save = 7    
+  elif CON = 26 or CON = 27:
+    CON_Save = 8
+  elif CON = 28 or CON = 29:
+    CON_Save = 9
+  elif CON = 30:
+    CON_Save = 10
+  return CON_Save
+  if CON_proficiency_bonus = True:
+    CON_Save = CON_Save + Proficiency Bonus
+
+INT_Save = 0
+  if INT = 1:
+    INT_Save = -5
+  elif INT = 2 or INT = 3:
+    INT_Save = -4
+  elif INT = 4 or INT = 5:
+    INT_Save = -3
+  elif INT = 6or INT = 7:
+    INT_Save = -2
+  elif INT = 8 or INT = 9:
+    INT_Save = -1
+  elif INT = 10 or INT = 11:
+    INT_Save = 0
+  elif INT = 12 or INT = 13:
+    INT_Save = 1
+  elif INT = 14 or INT = 15:
+    INT_Save = 2
+  elif INT = 16 or INT = 17:
+    INT_Save = 3
+  elif INT = 18 or INT = 19:
+    INT_Save = 4
+  elif INT = 20 or INT = 21:
+    INT_Save = 5
+  elif INT = 22 or INT = 23:
+    INT_Save = 6
+  elif INT = 24 or INT = 25:
+    INT_Save = 7    
+  elif INT = 26 or INT = 27:
+    INT_Save = 8
+  elif INT = 28 or INT = 29:
+    INT_Save = 9
+  elif INT = 30:
+    INT_Save = 10
+  return INT_Save
+  if INT_proficiency_bonus = True:
+    INT_Save = INT_Save + Proficiency Bonus
+
+WIS_Save = 0
+  if WIS = 1:
+    WIS_Save = -5
+  elif WIS = 2 or WIS = 3:
+    WIS_Save = -4
+  elif WIS = 4 or WIS = 5:
+    WIS_Save = -3
+  elif WIS = 6or WIS = 7:
+    WIS_Save = -2
+  elif WIS = 8 or WIS = 9:
+    WIS_Save = -1
+  elif WIS = 10 or WIS = 11:
+    WIS_Save = 0
+  elif WIS = 12 or WIS = 13:
+    WIS_Save = 1
+  elif WIS = 14 or WIS = 15:
+    WIS_Save = 2
+  elif WIS = 16 or WIS = 17:
+    WIS_Save = 3
+  elif WIS = 18 or WIS = 19:
+    WIS_Save = 4
+  elif WIS = 20 or WIS = 21:
+    WIS_Save = 5
+  elif WIS = 22 or WIS = 23:
+    WIS_Save = 6
+  elif WIS = 24 or WIS = 25:
+    WIS_Save = 7    
+  elif WIS = 26 or WIS = 27:
+    WIS_Save = 8
+  elif WIS = 28 or WIS = 29:
+    WIS_Save = 9
+  elif WIS = 30:
+    WIS_Save = 10
+  return WIS_Save
+  if WIS_proficiency_bonus = True:
+    WIS_Save = WIS_Save + Proficiency Bonus
+
+CHA_Save = 0
+  if CHA = 1:
+    CHA_Save = -5
+  elif CHA = 2 or CHA = 3:
+    CHA_Save = -4
+  elif CHA = 4 or CHA = 5:
+    CHA_Save = -3
+  elif CHA = 6or CHA = 7:
+    CHA_Save = -2
+  elif CHA = 8 or CHA = 9:
+    CHA_Save = -1
+  elif CHA = 10 or CHA = 11:
+    CHA_Save = 0
+  elif CHA = 12 or CHA = 13:
+    CHA_Save = 1
+  elif CHA = 14 or CHA = 15:
+    CHA_Save = 2
+  elif CHA = 16 or CHA = 17:
+    CHA_Save = 3
+  elif CHA = 18 or CHA = 19:
+    CHA_Save = 4
+  elif CHA = 20 or CHA = 21:
+    CHA_Save = 5
+  elif CHA = 22 or CHA = 23:
+    CHA_Save = 6
+  elif CHA = 24 or CHA = 25:
+    CHA_Save = 7    
+  elif CHA = 26 or CHA = 27:
+    CHA_Save = 8
+  elif CHA = 28 or CHA = 29:
+    CHA_Save = 9
+  elif CHA = 30:
+    CHA_Save = 10
+  return CHA_Save
+  if CHA_proficiency_bonus = True:
+    CHA_Save = CHA_Save + Proficiency Bonus
