@@ -47,7 +47,7 @@ Alignment = inquirer.prompt(Alignment)
 XP = raw_input("XP: ")
 
 Level = 1
-  if XP <300:
+  if XP < 300:
     Level = Level
   elif XP >= 300 or XP <900:
     Level = 2
