@@ -23,3 +23,47 @@ def DEX (Dexterity, OtherDEX):
     OtherDEX = raw_input("Other Dexterity Modifiers: ")
     OtherDEX = int(OtherDEX)
   return Dexterity + OtherDEX
+  
+def CON (Constitution, OtherCON):
+    Constitution = raw_input("Constitution: ")
+    Constitution = int(Constitution)
+      if Race == 
+        Constitution ==
+      elif Race == 
+        Constitution == 
+    OtherCON = raw_input("Other Constitution Modifiers: ")
+    OtherCON = int(OtherCON)
+  return Constitution + OtherCON
+  
+def INT (Intelligence, OtherINT):
+    Intelligence = raw_input("Intelligence: ")
+    Intelligence = int(Intelligence)
+      if Race == 
+        Intelligence ==
+      elif Race == 
+        Intelligence == 
+    OtherINT = raw_input("Other Intelligence Modifiers: ")
+    OtherINT = int(OtherINT)
+  return Intelligence + OtherINT
+  
+def WIS (Wisdom, OtherWIS):
+    Wisdom = raw_input("Wisdom: ")
+    Wisdom = int(Wisdom)
+      if Race == 
+        Wisdom ==
+      elif Race == 
+        Wisdom == 
+    OtherWIS = raw_input("Other Wisdom Modifiers: ")
+    OtherWIS = int(OtherWIS)
+  return Wisdom + OtherWIS
+  
+def CHA (Charisma, OtherCHA):
+    Charisma = raw_input("Charisma: ")
+    Charisma = int(Charisma)
+      if Race == 
+        Charisma ==
+      elif Race == 
+        Charisma == 
+    OtherCHA = raw_input("Other Charisma Modifiers: ")
+    OtherCHA = Charisma + int(OtherCHA)
+  return Intelligence + OtherINT
